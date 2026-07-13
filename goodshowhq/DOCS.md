@@ -20,7 +20,10 @@ the GoodShowHQ cloud.
 3. When the account shows **Connected**, click **Link to your
    GoodShowHQ account →** to attach the profile to your family
    account.
-4. Install the GoodShowHQ mobile app to review suggestions — the
+4. More than one kid? Click **Add another YouTube account** and
+   repeat — each account gets its own row with its avatar, @handle,
+   and profile ID, exactly like the desktop app.
+5. Install the GoodShowHQ mobile app to review suggestions — the
    add-on takes care of the rest.
 
 ## Options
@@ -41,5 +44,10 @@ metadata for scoring, and confirmations when an approved action
 (block/follow) is applied. No credentials.
 
 **The account shows "Needs sign-in".** YouTube rotated the session.
-Click **Sign in to YouTube** again — with the saved browser profile
-this usually completes without re-entering the password.
+Sign in with that account again — the add-on recognizes the account
+and updates it in place (it won't create a duplicate).
+
+**Removing an account.** Click **Remove** on its row (twice, to
+confirm). This only forgets the sign-in on your box — the profile
+and its history in your GoodShowHQ account are untouched, and
+signing in again reconnects the same profile.
