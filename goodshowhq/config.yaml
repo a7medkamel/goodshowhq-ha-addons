@@ -6,7 +6,7 @@
 # with scripts in ha-addon/README.md before bumping `version`.
 name: GoodShowHQ
 slug: goodshowhq
-version: '0.1.0'
+version: '0.1.1'
 description: >-
   Keep your kid's YouTube healthy — sign in once from Home Assistant,
   then this add-on monitors their feed and history and applies your
