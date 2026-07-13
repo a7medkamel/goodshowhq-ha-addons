@@ -1,0 +1,28 @@
+# Home Assistant add-on manifest.
+#
+# `image:` points at prebuilt images on GHCR, so this add-on repo can
+# be public without open-sourcing the monorepo: the Supervisor pulls
+# `<image>:<version>` instead of building from source. Publish images
+# with scripts in ha-addon/README.md before bumping `version`.
+name: GoodShowHQ
+slug: goodshowhq
+version: '0.1.0'
+description: >-
+  Keep your kid's YouTube healthy — sign in once from Home Assistant,
+  then this add-on monitors their feed and history and applies your
+  approved actions around the clock. Local-first: the YouTube session
+  never leaves your home.
+url: https://goodshowhq.com
+arch:
+  - amd64
+  - aarch64
+init: false
+ingress: true
+ingress_port: 8099
+panel_icon: mdi:youtube
+panel_title: GoodShowHQ
+options:
+  graphql_endpoint: https://api.goodshowhq.com/graphql
+schema:
+  graphql_endpoint: url
+image: ghcr.io/a7medkamel/goodshowhq-ha-addon-{arch}
